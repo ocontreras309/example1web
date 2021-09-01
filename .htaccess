@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^studentstable/?$ students.php [NC,L]
+RewriteRule ^newstudent/?$ newstudent.php [NC,L]
+RewriteRule ^poststudent/?$ post_student.php [NC,L]
+RewriteRule ^students/?$ students_controller.php [NC,L]
+RewriteRule ^students/([0-9]+)/?$ students_controller.php?id=$1 [NC,L]
+RewriteRule ^students1/?$ students_route.php [NC,L]
+RewriteRule ^students1/([0-9]+)/?$ students_route.php?id=$1 [NC,L]
